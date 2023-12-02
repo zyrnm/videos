@@ -1,0 +1,214 @@
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo1{
+  font-size: 35px;
+  font-family: 'quicksand';
+  color: #427D9D;
+}
+
+.logo2{
+  font-size: 35px;
+  font-family: 'quicksand';
+  color: #164863;
+}
+
+.container {
+    background:#ddf2fd;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'quicksand';
+    text-decoration: none;
+    color: black;
+    padding-inline: 2.5rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn {
+  font-weight: bold;
+  background-color: #ddf2fd;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'quicksand';
+  cursor: pointer
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddf2fd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddf2fd;
+}
+
+.videoclip1{
+  height: 50vh;
+  background: #427D9D;
+  text-align: center;
+}
+
+h3 {
+  color: #ddf2fd;
+  font-family: 'quicksand';
+  font-size: 50px;
+}
+.video1 {
+    
+    padding: 10rem 5rem ;
+}
+
+.video1 video {
+  width: 750px;
+  height: 500px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.videoclip2{
+  height: 50vh;
+  background: #164863;
+  text-align: center;
+}
+
+h3 {
+  color: #ddf2fd;
+  font-family: 'quicksand';
+  font-size: 50px;
+}
+.video2 {
+    
+    padding: 10rem 5rem ;
+}
+
+.video2 video {
+  width: 750px;
+  height: 500px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.videoclip3{
+  height: 50vh;
+  background: #427D9D;
+  text-align: center;
+}
+
+h3 {
+  color: #ddf2fd;
+  font-family: 'quicksand';
+  font-size: 50px;
+}
+.video3 {
+    
+    padding: 10rem 5rem ;
+}
+
+.video3 video {
+  width: 750px;
+  height: 500px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer {
+  background: #ddf2fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    
+}
+
+footer a {
+  font-weight: bold;
+  font-family: 'quicksand';
+  color: black;
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mf {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'quicksand';
+  color: #427d9d;
+}
+
+.mt {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'quicksand';
+  color: #164863;
+}
